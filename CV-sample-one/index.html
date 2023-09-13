@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV Builder</title>
+</head>
+<body>
+    <header>
+        <h1>CV Builder</h1>
+    </header>
+    <main>
+        <section id="personal-info"> 
+            <h2>Personal Information</h2>
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone">
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <input type="text" id="school" placeholder="School/University">
+            <input type="text" id="degree" placeholder="Degree">
+            <input type="text" id="grad-year" placeholder="Graduation Year">
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <input type="text" id="job-title" placeholder="Job Title">
+            <input type="text" id="company" placeholder="Company">
+            <input type="text" id="exp-year" placeholder="Year">
+        </section>
+        <button id="generate-cv">Generate CV</button>
+        <div id="cv-preview"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
